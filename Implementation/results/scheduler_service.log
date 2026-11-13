@@ -1,0 +1,129 @@
+2026-11-12 01:18:33,139 [INFO] =======================================================
+2026-11-12 01:18:33,139 [INFO]  Scheduler Service Started
+2026-11-12 01:18:33,140 [INFO]  Target execution time: 03:00:00 AM
+2026-11-12 01:18:33,140 [INFO]  Fallback retry interval if busy: 30 minutes
+2026-11-12 01:18:33,140 [INFO] =======================================================
+2026-11-12 01:18:33,140 [INFO] Current time is 2026-11-12 01:18:33.
+2026-11-12 01:18:33,140 [INFO] Sleeping for 6087 seconds (101.4 minutes) until 03:00:00 AM...
+2026-11-12 03:00:00,000 [INFO] Reached 03:00 AM target time (Current time: 2026-11-12 03:00:00).
+2026-11-12 03:00:00,005 [INFO] --- [Check #1] Evaluating System Resource Availability ---
+2026-11-12 03:00:01,041 [INFO] CPU Utilization : 10.7%
+2026-11-12 03:00:01,041 [INFO] RAM Available   : 32.3 GB / 63.7 GB
+2026-11-12 03:00:01,042 [INFO] GPU Utilization : 98.0%
+2026-11-12 03:00:01,042 [INFO] VRAM Free       : 5859 MB / 16380 MB (Used: 10259 MB)
+2026-11-12 03:00:01,042 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 03:00:01,042 [WARNING]   - GPU utilization high (98.0% > 20.0%)
+2026-11-12 03:00:01,042 [WARNING]   - GPU VRAM free is low (5859 MB < 8000 MB)
+2026-11-12 03:00:01,042 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 03:30:01,042 [INFO] --- [Check #2] Evaluating System Resource Availability ---
+2026-11-12 03:30:02,084 [INFO] CPU Utilization : 6.5%
+2026-11-12 03:30:02,084 [INFO] RAM Available   : 37.3 GB / 63.7 GB
+2026-11-12 03:30:02,085 [INFO] GPU Utilization : 96.0%
+2026-11-12 03:30:02,085 [INFO] VRAM Free       : 7184 MB / 16380 MB (Used: 8934 MB)
+2026-11-12 03:30:02,085 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 03:30:02,085 [WARNING]   - GPU utilization high (96.0% > 20.0%)
+2026-11-12 03:30:02,085 [WARNING]   - GPU VRAM free is low (7184 MB < 8000 MB)
+2026-11-12 03:30:02,085 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 04:00:02,085 [INFO] --- [Check #3] Evaluating System Resource Availability ---
+2026-11-12 04:00:03,135 [INFO] CPU Utilization : 6.0%
+2026-11-12 04:00:03,135 [INFO] RAM Available   : 36.9 GB / 63.7 GB
+2026-11-12 04:00:03,135 [INFO] GPU Utilization : 100.0%
+2026-11-12 04:00:03,135 [INFO] VRAM Free       : 4965 MB / 16380 MB (Used: 11152 MB)
+2026-11-12 04:00:03,135 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 04:00:03,136 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 04:00:03,136 [WARNING]   - GPU VRAM free is low (4965 MB < 8000 MB)
+2026-11-12 04:00:03,136 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 04:30:04,189 [INFO] --- [Check #4] Evaluating System Resource Availability ---
+2026-11-12 04:30:05,235 [INFO] CPU Utilization : 8.3%
+2026-11-12 04:30:05,235 [INFO] RAM Available   : 36.3 GB / 63.7 GB
+2026-11-12 04:30:05,235 [INFO] GPU Utilization : 99.0%
+2026-11-12 04:30:05,235 [INFO] VRAM Free       : 8720 MB / 16380 MB (Used: 7398 MB)
+2026-11-12 04:30:05,236 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 04:30:05,236 [WARNING]   - GPU utilization high (99.0% > 20.0%)
+2026-11-12 04:30:05,236 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 05:00:05,236 [INFO] --- [Check #5] Evaluating System Resource Availability ---
+2026-11-12 05:00:06,288 [INFO] CPU Utilization : 3.9%
+2026-11-12 05:00:06,288 [INFO] RAM Available   : 35.3 GB / 63.7 GB
+2026-11-12 05:00:06,288 [INFO] GPU Utilization : 100.0%
+2026-11-12 05:00:06,288 [INFO] VRAM Free       : 203 MB / 16380 MB (Used: 15915 MB)
+2026-11-12 05:00:06,288 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 05:00:06,288 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 05:00:06,288 [WARNING]   - GPU VRAM free is low (203 MB < 8000 MB)
+2026-11-12 05:00:06,288 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 05:30:06,288 [INFO] --- [Check #6] Evaluating System Resource Availability ---
+2026-11-12 05:30:07,335 [INFO] CPU Utilization : 4.4%
+2026-11-12 05:30:07,335 [INFO] RAM Available   : 35.4 GB / 63.7 GB
+2026-11-12 05:30:07,336 [INFO] GPU Utilization : 100.0%
+2026-11-12 05:30:07,336 [INFO] VRAM Free       : 219 MB / 16380 MB (Used: 15899 MB)
+2026-11-12 05:30:07,336 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 05:30:07,336 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 05:30:07,336 [WARNING]   - GPU VRAM free is low (219 MB < 8000 MB)
+2026-11-12 05:30:07,336 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 06:00:07,337 [INFO] --- [Check #7] Evaluating System Resource Availability ---
+2026-11-12 06:00:08,372 [INFO] CPU Utilization : 3.2%
+2026-11-12 06:00:08,372 [INFO] RAM Available   : 35.2 GB / 63.7 GB
+2026-11-12 06:00:08,372 [INFO] GPU Utilization : 99.0%
+2026-11-12 06:00:08,372 [INFO] VRAM Free       : 201 MB / 16380 MB (Used: 15917 MB)
+2026-11-12 06:00:08,372 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 06:00:08,372 [WARNING]   - GPU utilization high (99.0% > 20.0%)
+2026-11-12 06:00:08,372 [WARNING]   - GPU VRAM free is low (201 MB < 8000 MB)
+2026-11-12 06:00:08,372 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 06:30:08,372 [INFO] --- [Check #8] Evaluating System Resource Availability ---
+2026-11-12 06:30:09,411 [INFO] CPU Utilization : 3.9%
+2026-11-12 06:30:09,411 [INFO] RAM Available   : 34.9 GB / 63.7 GB
+2026-11-12 06:30:09,411 [INFO] GPU Utilization : 100.0%
+2026-11-12 06:30:09,411 [INFO] VRAM Free       : 201 MB / 16380 MB (Used: 15917 MB)
+2026-11-12 06:30:09,411 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 06:30:09,411 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 06:30:09,411 [WARNING]   - GPU VRAM free is low (201 MB < 8000 MB)
+2026-11-12 06:30:09,411 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 07:00:09,412 [INFO] --- [Check #9] Evaluating System Resource Availability ---
+2026-11-12 07:00:10,446 [INFO] CPU Utilization : 3.9%
+2026-11-12 07:00:10,446 [INFO] RAM Available   : 34.9 GB / 63.7 GB
+2026-11-12 07:00:10,446 [INFO] GPU Utilization : 100.0%
+2026-11-12 07:00:10,446 [INFO] VRAM Free       : 219 MB / 16380 MB (Used: 15899 MB)
+2026-11-12 07:00:10,446 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 07:00:10,446 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 07:00:10,446 [WARNING]   - GPU VRAM free is low (219 MB < 8000 MB)
+2026-11-12 07:00:10,446 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 07:30:10,447 [INFO] --- [Check #10] Evaluating System Resource Availability ---
+2026-11-12 07:30:11,491 [INFO] CPU Utilization : 5.8%
+2026-11-12 07:30:11,491 [INFO] RAM Available   : 35.4 GB / 63.7 GB
+2026-11-12 07:30:11,491 [INFO] GPU Utilization : 100.0%
+2026-11-12 07:30:11,491 [INFO] VRAM Free       : 2640 MB / 16380 MB (Used: 13478 MB)
+2026-11-12 07:30:11,491 [WARNING] [SYSTEM BUSY] System cannot start benchmark right now:
+2026-11-12 07:30:11,491 [WARNING]   - GPU utilization high (100.0% > 20.0%)
+2026-11-12 07:30:11,491 [WARNING]   - GPU VRAM free is low (2640 MB < 8000 MB)
+2026-11-12 07:30:11,491 [INFO] Rechecking in 30 minutes (1800 seconds)...
+2026-11-12 08:00:11,491 [INFO] --- [Check #11] Evaluating System Resource Availability ---
+2026-11-12 08:00:12,535 [INFO] CPU Utilization : 2.1%
+2026-11-12 08:00:12,535 [INFO] RAM Available   : 37.0 GB / 63.7 GB
+2026-11-12 08:00:12,535 [INFO] GPU Utilization : 0.0%
+2026-11-12 08:00:12,535 [INFO] VRAM Free       : 15634 MB / 16380 MB (Used: 484 MB)
+2026-11-12 08:00:12,535 [INFO] [SUCCESS] System is free! Launching LLaMA-3.2-3B-Instruct pipeline...
+2026-11-12 08:00:12,897 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-11-12 08:00:13,135 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-11-12 08:00:13,430 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-11-12 08:00:13,678 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-11-12 08:00:13,917 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-11-12 08:00:14,165 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct/revision/main "HTTP/1.1 200 OK"
+2026-11-12 08:00:14,416 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct/tree/0cb88a4f764b7a12671c53f0838cd831a0843b95?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-12 08:00:14,677 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/0cb88a4f764b7a12671c53f0838cd831a0843b95/model-00002-of-00002.safetensors "HTTP/1.1 302 Found"
+2026-11-12 08:00:14,692 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct/xet-read-token/0cb88a4f764b7a12671c53f0838cd831a0843b95 "HTTP/1.1 200 OK"
+2026-11-12 08:02:52,560 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:52,796 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/generation_config.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:54,007 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:54,264 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:54,511 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:54,777 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-12 08:02:55,023 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-12 08:02:55,260 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:55,533 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:57,022 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/tokenizer.model "HTTP/1.1 404 Not Found"
+2026-11-12 08:02:57,254 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-11-12 08:02:57,496 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:57,751 [INFO] HTTP Request: GET https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-11-12 08:02:58,002 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-11-12 08:02:58,873 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Llama-3.2-3B-Instruct "HTTP/1.1 200 OK"
+2026-11-12 08:07:48,538 [WARNING] TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-12 08:12:44,651 [INFO] [COMPLETED] LLaMA-3.2-3B-Instruct benchmark and consolidated comparison completed successfully.

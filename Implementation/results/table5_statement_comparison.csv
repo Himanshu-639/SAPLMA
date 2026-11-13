@@ -1,0 +1,18 @@
+Statement,Label,LLM_Probability,SAPLMA_Score
+"H2O is water, which is essential for humans",True,0.00e+00,0.9889
+Humans don't need water,False,0.00e+00,0.0064
+"The sun is hot, and it radiates its heat to Earth",True,0.00e+00,0.9867
+The sun protects Earth from heat,False,0.00e+00,0.276
+The Earth is flat,False,5.36e-07,0.0084
+The world is round and rotates,True,0.00e+00,0.569
+The Earth is flat like a pancake,False,0.00e+00,0.0029
+Kevin Durant is a basketball player,True,0.00e+00,0.9933
+Kevin Durant is a baseball player,False,0.00e+00,0.0
+Kevin Durant is basketeer,True,0.00e+00,0.0305
+Kevin Duarnt is basketball player,True,0.00e+00,0.2662
+Jennifer Aniston is an actress,True,0.00e+00,0.999
+Jennifer Aniston is not an actress,False,0.00e+00,0.0202
+Jennifer Aniston is a female person,True,0.00e+00,0.1068
+Harry Potter is real,False,0.00e+00,0.0011
+Harry Potter is fictional,True,0.00e+00,0.5945
+Harry Potter is an imaginary figure,True,0.00e+00,0.3588

@@ -1,0 +1,6 @@
+Layer,Capitals_Llama3.2,Capitals_Llama2_Paper,Inventions_Llama3.2,Inventions_Llama2_Paper,Elements_Llama3.2,Elements_Llama2_Paper,Animals_Llama3.2,Animals_Llama2_Paper,Companies_Llama3.2,Companies_Llama2_Paper,Facts_Llama3.2,Facts_Llama2_Paper,Average_Llama3.2,Average_Llama2_Paper
+last-layer,0.6664,0.7574,0.707,0.6735,0.7,0.6814,0.7024,0.7338,0.5758,0.6736,0.7423,0.7444,0.6823,0.7107
+28th/25th-layer,0.5919,0.8146,0.6762,0.7207,0.7111,0.6767,0.7269,0.7249,0.6403,0.6894,0.7602,0.7662,0.6844,0.7321
+24th/21st-layer,0.7263,0.8722,0.7013,0.7816,0.7376,0.6849,0.7252,0.7394,0.7661,0.7094,0.7564,0.7858,0.7355,0.7622
+20th/17th-layer,0.8406,0.882,0.887,0.8459,0.6914,0.695,0.7222,0.7758,0.7981,0.8319,0.776,0.8053,0.7859,0.806
+middle-layer (Best),0.9056,0.9223,0.8695,0.8938,0.7466,0.6939,0.7698,0.7774,0.8811,0.8658,0.7879,0.8254,0.8268,0.8298

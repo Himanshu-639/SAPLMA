@@ -1,0 +1,21 @@
+# Environment & Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Pre-extracted activation vector embeddings (~13 GB)
+embeddings/
+**/embeddings/
+
+# Git backup
+.git_backup/
+**/.git_backup/

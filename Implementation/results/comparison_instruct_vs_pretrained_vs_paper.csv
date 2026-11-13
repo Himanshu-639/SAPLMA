@@ -1,0 +1,6 @@
+Layer,Layer_Index,LLaMA-3.2-3B-Instruct_Acc,LLaMA-3.2-3B-Instruct_AUC,LLaMA-3.2-3B-Base_Acc,LLaMA-3.2-3B-Base_AUC,Paper_LLaMA-2-7B_Acc,Paper_OPT-6.7B_Acc
+last-layer,-1,70.15%,0.8060,69.89%,0.8044,69.34%,63.85%
+28th-layer,-4,71.32%,0.8456,67.95%,0.8088,71.36%,65.68%
+24th-layer,-8,75.26%,0.8644,73.94%,0.8586,76.84%,67.54%
+20th-layer,-12,79.37%,0.8930,78.93%,0.8946,80.20%,70.98%
+middle-layer,-16,82.20%,0.9081,83.17%,0.9103,82.98%,66.86%

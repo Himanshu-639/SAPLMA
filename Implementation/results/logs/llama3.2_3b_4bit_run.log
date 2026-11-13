@@ -1,0 +1,152 @@
+
+================================================================================
+ STARTING BENCHMARK: LLaMA-3.2-3B (Base) 4-bit
+ Model: llama3 | Precision: 4bit | Tag: llama3.2_3b_4bit
+ Log File: C:\Users\hp\Desktop\SAPLMA\Implementation\results\logs\llama3.2_3b_4bit_run.log
+================================================================================
+
+[Step 1/2] Extracting activations across 6 topics for 5 layers...
+Extracting activations on: cuda (Precision: 4bit)
+Using 4-bit quantization: BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16)
+Processing 'cities' (1458 sentences)...
+  Processed 1/1458 sentences
+  Processed 201/1458 sentences
+  Processed 401/1458 sentences
+  Processed 601/1458 sentences
+  Processed 801/1458 sentences
+  Processed 1001/1458 sentences
+  Processed 1201/1458 sentences
+  Processed 1401/1458 sentences
+  Processed 1458/1458 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_citiesllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_citiesllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_citiesllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_citiesllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_citiesllama3.2_3b_4bit_16_rmv_period.csv
+Processing 'inventions' (876 sentences)...
+  Processed 1/876 sentences
+  Processed 201/876 sentences
+  Processed 401/876 sentences
+  Processed 601/876 sentences
+  Processed 801/876 sentences
+  Processed 876/876 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_inventionsllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_inventionsllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_inventionsllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_inventionsllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_inventionsllama3.2_3b_4bit_16_rmv_period.csv
+Processing 'elements' (930 sentences)...
+  Processed 1/930 sentences
+  Processed 201/930 sentences
+  Processed 401/930 sentences
+  Processed 601/930 sentences
+  Processed 801/930 sentences
+  Processed 930/930 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_elementsllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_elementsllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_elementsllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_elementsllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_elementsllama3.2_3b_4bit_16_rmv_period.csv
+Processing 'animals' (1008 sentences)...
+  Processed 1/1008 sentences
+  Processed 201/1008 sentences
+  Processed 401/1008 sentences
+  Processed 601/1008 sentences
+  Processed 801/1008 sentences
+  Processed 1001/1008 sentences
+  Processed 1008/1008 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_animalsllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_animalsllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_animalsllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_animalsllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_animalsllama3.2_3b_4bit_16_rmv_period.csv
+Processing 'companies' (1200 sentences)...
+  Processed 1/1200 sentences
+  Processed 201/1200 sentences
+  Processed 401/1200 sentences
+  Processed 601/1200 sentences
+  Processed 801/1200 sentences
+  Processed 1001/1200 sentences
+  Processed 1200/1200 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_companiesllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_companiesllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_companiesllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_companiesllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_companiesllama3.2_3b_4bit_16_rmv_period.csv
+Processing 'facts' (613 sentences)...
+  Processed 1/613 sentences
+  Processed 201/613 sentences
+  Processed 401/613 sentences
+  Processed 601/613 sentences
+  Processed 613/613 sentences
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_factsllama3.2_3b_4bit_1_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_factsllama3.2_3b_4bit_4_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_factsllama3.2_3b_4bit_8_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_factsllama3.2_3b_4bit_12_rmv_period.csv
+  Saved: C:\Users\hp\Desktop\SAPLMA\Implementation\embeddings\embeddings_with_labels_factsllama3.2_3b_4bit_16_rmv_period.csv
+Activation extraction completed.
+
+[Step 2/2] Running 6-topic leave-one-out cross-validation (Repetitions=3)...
+
+=======================================================
+ SAPLMA Cross-Topic Evaluation: llama3 (precision=4bit, tag=llama3.2_3b_4bit)
+ Protocol: 6-fold Leave-One-Topic-Out, Repetitions=3, Epochs=5, Threshold=0.5
+=======================================================
+
+
+>>> Evaluating last-layer (index -1) <<<
+  [cities      ] Acc = 0.6994 (runs: [0.6228, 0.8032, 0.6722]), AUC = 0.8465
+  [inventions  ] Acc = 0.6423 (runs: [0.6084, 0.6507, 0.6678]), AUC = 0.8043
+  [elements    ] Acc = 0.7258 (runs: [0.6774, 0.743, 0.757]), AUC = 0.8211
+  [animals     ] Acc = 0.6882 (runs: [0.6438, 0.6994, 0.7212]), AUC = 0.7946
+  [companies   ] Acc = 0.5653 (runs: [0.5842, 0.5583, 0.5533]), AUC = 0.6534
+  [facts       ] Acc = 0.7493 (runs: [0.7439, 0.7651, 0.739]), AUC = 0.8609
+  --> last-layer Average Accuracy across all 6 topics: 0.6784 (Avg AUC: 0.7968)
+
+>>> Evaluating 28th-layer (index -4) <<<
+  [cities      ] Acc = 0.5873 (runs: [0.6036, 0.5974, 0.561]), AUC = 0.7735
+  [inventions  ] Acc = 0.6689 (runs: [0.6998, 0.6404, 0.6667]), AUC = 0.7959
+  [elements    ] Acc = 0.6835 (runs: [0.7075, 0.6796, 0.6634]), AUC = 0.7484
+  [animals     ] Acc = 0.7159 (runs: [0.7133, 0.6984, 0.7361]), AUC = 0.8032
+  [companies   ] Acc = 0.5975 (runs: [0.6, 0.5617, 0.6308]), AUC = 0.7378
+  [facts       ] Acc = 0.7689 (runs: [0.7667, 0.7879, 0.752]), AUC = 0.8699
+  --> 28th-layer Average Accuracy across all 6 topics: 0.6704 (Avg AUC: 0.7881)
+
+>>> Evaluating 24th-layer (index -8) <<<
+  [cities      ] Acc = 0.7686 (runs: [0.7956, 0.7462, 0.7641]), AUC = 0.8944
+  [inventions  ] Acc = 0.7367 (runs: [0.7774, 0.6815, 0.7511]), AUC = 0.8468
+  [elements    ] Acc = 0.7251 (runs: [0.728, 0.7215, 0.7258]), AUC = 0.7916
+  [animals     ] Acc = 0.7318 (runs: [0.7272, 0.7321, 0.7361]), AUC = 0.8191
+  [companies   ] Acc = 0.7464 (runs: [0.7467, 0.7233, 0.7692]), AUC = 0.8582
+  [facts       ] Acc = 0.7526 (runs: [0.7488, 0.7553, 0.7537]), AUC = 0.8834
+  --> 24th-layer Average Accuracy across all 6 topics: 0.7435 (Avg AUC: 0.8489)
+
+>>> Evaluating 20th-layer (index -12) <<<
+  [cities      ] Acc = 0.9015 (runs: [0.9095, 0.893, 0.9019]), AUC = 0.9614
+  [inventions  ] Acc = 0.8790 (runs: [0.8619, 0.887, 0.8881]), AUC = 0.9481
+  [elements    ] Acc = 0.6946 (runs: [0.7108, 0.6774, 0.6957]), AUC = 0.7947
+  [animals     ] Acc = 0.7444 (runs: [0.744, 0.747, 0.7421]), AUC = 0.8312
+  [companies   ] Acc = 0.8214 (runs: [0.8183, 0.8233, 0.8225]), AUC = 0.9105
+  [facts       ] Acc = 0.7858 (runs: [0.7602, 0.8075, 0.7896]), AUC = 0.8895
+  --> 20th-layer Average Accuracy across all 6 topics: 0.8044 (Avg AUC: 0.8893)
+
+>>> Evaluating middle-layer (index -16) <<<
+  [cities      ] Acc = 0.9435 (runs: [0.9369, 0.9451, 0.9486]), AUC = 0.9849
+  [inventions  ] Acc = 0.8740 (runs: [0.8801, 0.8653, 0.8767]), AUC = 0.9501
+  [elements    ] Acc = 0.7398 (runs: [0.7387, 0.7559, 0.7247]), AUC = 0.8101
+  [animals     ] Acc = 0.7695 (runs: [0.7817, 0.7649, 0.7619]), AUC = 0.8636
+  [companies   ] Acc = 0.8906 (runs: [0.8908, 0.8817, 0.8992]), AUC = 0.9440
+  [facts       ] Acc = 0.7569 (runs: [0.7602, 0.7504, 0.7602]), AUC = 0.8602
+  --> middle-layer Average Accuracy across all 6 topics: 0.8291 (Avg AUC: 0.9021)
+
+Full results saved to: C:\Users\hp\Desktop\SAPLMA\Implementation\results\saplma_cross_topic_llama3.2_3b_4bit_results.csv
+
+       Layer  Layer_Index   Cities  Inventions  Chemical_Elements  Animals  Companies  Scientific_Facts  Average_Accuracy  Average_AUC
+  last-layer           -1 0.699360    0.642314           0.725806 0.688161   0.565278          0.749320          0.678373     0.796812
+  28th-layer           -4 0.587334    0.668950           0.683513 0.715939   0.597500          0.768896          0.670355     0.788104
+  24th-layer           -8 0.768633    0.736682           0.725090 0.731812   0.746389          0.752583          0.743531     0.848915
+  20th-layer          -12 0.901463    0.878995           0.694624 0.744378   0.821389          0.785753          0.804434     0.889251
+middle-layer          -16 0.943530    0.874049           0.739785 0.769511   0.890556          0.756933          0.829060     0.902138
+
+[COMPLETED] Successfully finished LLaMA-3.2-3B (Base) 4-bit!
+
