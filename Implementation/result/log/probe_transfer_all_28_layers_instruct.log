@@ -1,0 +1,123 @@
+
+================================================================================
+ SAPLMA 28-LAYER CROSS-PRECISION PROBE TRANSFER: LLaMA-3.2-3B-Instruct
+ Train on FP16 -> Zero-Shot Transfer Test on 8-bit and 4-bit
+ Destination for Saved Probes: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes_28layers\llama3.2_3b_instruct
+================================================================================
+
+
+>>> Evaluating Layer-1 (Last) (Index -1, file index 1) <<<
+  --> Layer-1 (Last): FP16 Acc=70.19% (AUC=0.8092) | Trans 8b Acc=70.55% (AUC=0.8098) | Trans 4b Acc=69.14% (AUC=0.8030)
+
+>>> Evaluating Layer-2 (Index -2, file index 2) <<<
+  --> Layer-2: FP16 Acc=70.51% (AUC=0.8320) | Trans 8b Acc=70.62% (AUC=0.8322) | Trans 4b Acc=68.45% (AUC=0.8241)
+
+>>> Evaluating Layer-3 (Index -3, file index 3) <<<
+  --> Layer-3: FP16 Acc=71.88% (AUC=0.8423) | Trans 8b Acc=71.97% (AUC=0.8423) | Trans 4b Acc=70.72% (AUC=0.8362)
+
+>>> Evaluating Layer-4 (Index -4, file index 4) <<<
+  --> Layer-4: FP16 Acc=72.10% (AUC=0.8413) | Trans 8b Acc=72.33% (AUC=0.8413) | Trans 4b Acc=70.85% (AUC=0.8335)
+
+>>> Evaluating Layer-5 (Index -5, file index 5) <<<
+  --> Layer-5: FP16 Acc=71.09% (AUC=0.8431) | Trans 8b Acc=71.35% (AUC=0.8436) | Trans 4b Acc=69.62% (AUC=0.8352)
+
+>>> Evaluating Layer-6 (Index -6, file index 6) <<<
+  --> Layer-6: FP16 Acc=72.94% (AUC=0.8580) | Trans 8b Acc=72.96% (AUC=0.8574) | Trans 4b Acc=71.64% (AUC=0.8509)
+
+>>> Evaluating Layer-7 (Index -7, file index 7) <<<
+  --> Layer-7: FP16 Acc=74.79% (AUC=0.8622) | Trans 8b Acc=74.59% (AUC=0.8617) | Trans 4b Acc=73.97% (AUC=0.8555)
+
+>>> Evaluating Layer-8 (Index -8, file index 8) <<<
+  --> Layer-8: FP16 Acc=74.58% (AUC=0.8648) | Trans 8b Acc=74.47% (AUC=0.8637) | Trans 4b Acc=73.86% (AUC=0.8594)
+
+>>> Evaluating Layer-9 (Index -9, file index 9) <<<
+  --> Layer-9: FP16 Acc=75.53% (AUC=0.8713) | Trans 8b Acc=75.59% (AUC=0.8707) | Trans 4b Acc=74.06% (AUC=0.8645)
+
+>>> Evaluating Layer-10 (Index -10, file index 10) <<<
+  --> Layer-10: FP16 Acc=76.77% (AUC=0.8818) | Trans 8b Acc=76.80% (AUC=0.8804) | Trans 4b Acc=75.19% (AUC=0.8755)
+
+>>> Evaluating Layer-11 (Index -11, file index 11) <<<
+  --> Layer-11: FP16 Acc=77.76% (AUC=0.8854) | Trans 8b Acc=77.94% (AUC=0.8847) | Trans 4b Acc=76.56% (AUC=0.8782)
+
+>>> Evaluating Layer-12 (Index -12, file index 12) <<<
+  --> Layer-12: FP16 Acc=77.82% (AUC=0.8873) | Trans 8b Acc=77.88% (AUC=0.8865) | Trans 4b Acc=77.04% (AUC=0.8812)
+
+>>> Evaluating Layer-13 (Index -13, file index 13) <<<
+  --> Layer-13: FP16 Acc=77.49% (AUC=0.8859) | Trans 8b Acc=77.49% (AUC=0.8852) | Trans 4b Acc=76.66% (AUC=0.8801)
+
+>>> Evaluating Layer-14 (Middle) (Index -14, file index 14) <<<
+  --> Layer-14 (Middle): FP16 Acc=79.10% (AUC=0.8953) | Trans 8b Acc=79.26% (AUC=0.8945) | Trans 4b Acc=78.29% (AUC=0.8904)
+
+>>> Evaluating Layer-15 (Index -15, file index 15) <<<
+  --> Layer-15: FP16 Acc=80.24% (AUC=0.8978) | Trans 8b Acc=80.23% (AUC=0.8973) | Trans 4b Acc=79.84% (AUC=0.8931)
+
+>>> Evaluating Layer-16 (Index -16, file index 16) <<<
+  --> Layer-16: FP16 Acc=81.05% (AUC=0.9034) | Trans 8b Acc=80.86% (AUC=0.9026) | Trans 4b Acc=80.48% (AUC=0.8982)
+
+>>> Evaluating Layer-17 (Index -17, file index 17) <<<
+  --> Layer-17: FP16 Acc=81.19% (AUC=0.9012) | Trans 8b Acc=80.90% (AUC=0.9008) | Trans 4b Acc=80.60% (AUC=0.8968)
+
+>>> Evaluating Layer-18 (Index -18, file index 18) <<<
+  --> Layer-18: FP16 Acc=81.25% (AUC=0.9003) | Trans 8b Acc=81.31% (AUC=0.9004) | Trans 4b Acc=80.60% (AUC=0.8932)
+
+>>> Evaluating Layer-19 (Index -19, file index 19) <<<
+  --> Layer-19: FP16 Acc=78.39% (AUC=0.8809) | Trans 8b Acc=78.29% (AUC=0.8798) | Trans 4b Acc=77.87% (AUC=0.8730)
+
+>>> Evaluating Layer-20 (Index -20, file index 20) <<<
+  --> Layer-20: FP16 Acc=77.43% (AUC=0.8700) | Trans 8b Acc=77.28% (AUC=0.8682) | Trans 4b Acc=76.77% (AUC=0.8626)
+
+>>> Evaluating Layer-21 (Index -21, file index 21) <<<
+  --> Layer-21: FP16 Acc=73.48% (AUC=0.8265) | Trans 8b Acc=73.06% (AUC=0.8236) | Trans 4b Acc=72.93% (AUC=0.8198)
+
+>>> Evaluating Layer-22 (Index -22, file index 22) <<<
+  --> Layer-22: FP16 Acc=67.49% (AUC=0.7615) | Trans 8b Acc=67.20% (AUC=0.7578) | Trans 4b Acc=66.25% (AUC=0.7475)
+
+>>> Evaluating Layer-23 (Index -23, file index 23) <<<
+  --> Layer-23: FP16 Acc=66.38% (AUC=0.7472) | Trans 8b Acc=66.24% (AUC=0.7440) | Trans 4b Acc=65.70% (AUC=0.7380)
+
+>>> Evaluating Layer-24 (Index -24, file index 24) <<<
+  --> Layer-24: FP16 Acc=61.20% (AUC=0.6917) | Trans 8b Acc=60.94% (AUC=0.6873) | Trans 4b Acc=60.80% (AUC=0.6856)
+
+>>> Evaluating Layer-25 (Index -25, file index 25) <<<
+  --> Layer-25: FP16 Acc=59.82% (AUC=0.6640) | Trans 8b Acc=59.41% (AUC=0.6592) | Trans 4b Acc=59.04% (AUC=0.6573)
+
+>>> Evaluating Layer-26 (Index -26, file index 26) <<<
+  --> Layer-26: FP16 Acc=54.18% (AUC=0.5787) | Trans 8b Acc=53.80% (AUC=0.5757) | Trans 4b Acc=53.61% (AUC=0.5751)
+
+>>> Evaluating Layer-27 (Index -27, file index 27) <<<
+  --> Layer-27: FP16 Acc=51.72% (AUC=0.5222) | Trans 8b Acc=51.50% (AUC=0.5212) | Trans 4b Acc=51.36% (AUC=0.5203)
+
+>>> Evaluating Layer-28 (First) (Index -28, file index 28) <<<
+  --> Layer-28 (First): FP16 Acc=50.95% (AUC=0.5114) | Trans 8b Acc=51.08% (AUC=0.5111) | Trans 4b Acc=50.92% (AUC=0.5115)
+
+[Saved 28-Layer Summary]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\probe_transfer_all_28_layers_instruct.csv
+
+            Layer  Layer_Index  Layer_Num FP16_Native_Acc  FP16_Native_AUC FP16_to_8bit_Acc  FP16_to_8bit_AUC Delta_8bit_Acc FP16_to_4bit_Acc  FP16_to_4bit_AUC Delta_4bit_Acc
+   Layer-1 (Last)           -1          1          70.19%           0.8092           70.55%            0.8098         +0.36%           69.14%            0.8030         -1.04%
+          Layer-2           -2          2          70.51%           0.8320           70.62%            0.8322         +0.11%           68.45%            0.8241         -2.06%
+          Layer-3           -3          3          71.88%           0.8423           71.97%            0.8423         +0.08%           70.72%            0.8362         -1.17%
+          Layer-4           -4          4          72.10%           0.8413           72.33%            0.8413         +0.23%           70.85%            0.8335         -1.25%
+          Layer-5           -5          5          71.09%           0.8431           71.35%            0.8436         +0.25%           69.62%            0.8352         -1.48%
+          Layer-6           -6          6          72.94%           0.8580           72.96%            0.8574         +0.02%           71.64%            0.8509         -1.30%
+          Layer-7           -7          7          74.79%           0.8622           74.59%            0.8617         -0.20%           73.97%            0.8555         -0.81%
+          Layer-8           -8          8          74.58%           0.8648           74.47%            0.8637         -0.12%           73.86%            0.8594         -0.72%
+          Layer-9           -9          9          75.53%           0.8713           75.59%            0.8707         +0.05%           74.06%            0.8645         -1.47%
+         Layer-10          -10         10          76.77%           0.8818           76.80%            0.8804         +0.03%           75.19%            0.8755         -1.58%
+         Layer-11          -11         11          77.76%           0.8854           77.94%            0.8847         +0.18%           76.56%            0.8782         -1.20%
+         Layer-12          -12         12          77.82%           0.8873           77.88%            0.8865         +0.06%           77.04%            0.8812         -0.79%
+         Layer-13          -13         13          77.49%           0.8859           77.49%            0.8852         +0.00%           76.66%            0.8801         -0.83%
+Layer-14 (Middle)          -14         14          79.10%           0.8953           79.26%            0.8945         +0.15%           78.29%            0.8904         -0.81%
+         Layer-15          -15         15          80.24%           0.8978           80.23%            0.8973         -0.01%           79.84%            0.8931         -0.40%
+         Layer-16          -16         16          81.05%           0.9034           80.86%            0.9026         -0.19%           80.48%            0.8982         -0.57%
+         Layer-17          -17         17          81.19%           0.9012           80.90%            0.9008         -0.28%           80.60%            0.8968         -0.59%
+         Layer-18          -18         18          81.25%           0.9003           81.31%            0.9004         +0.06%           80.60%            0.8932         -0.65%
+         Layer-19          -19         19          78.39%           0.8809           78.29%            0.8798         -0.10%           77.87%            0.8730         -0.52%
+         Layer-20          -20         20          77.43%           0.8700           77.28%            0.8682         -0.15%           76.77%            0.8626         -0.66%
+         Layer-21          -21         21          73.48%           0.8265           73.06%            0.8236         -0.42%           72.93%            0.8198         -0.55%
+         Layer-22          -22         22          67.49%           0.7615           67.20%            0.7578         -0.29%           66.25%            0.7475         -1.24%
+         Layer-23          -23         23          66.38%           0.7472           66.24%            0.7440         -0.14%           65.70%            0.7380         -0.69%
+         Layer-24          -24         24          61.20%           0.6917           60.94%            0.6873         -0.26%           60.80%            0.6856         -0.40%
+         Layer-25          -25         25          59.82%           0.6640           59.41%            0.6592         -0.41%           59.04%            0.6573         -0.77%
+         Layer-26          -26         26          54.18%           0.5787           53.80%            0.5757         -0.38%           53.61%            0.5751         -0.57%
+         Layer-27          -27         27          51.72%           0.5222           51.50%            0.5212         -0.22%           51.36%            0.5203         -0.35%
+ Layer-28 (First)          -28         28          50.95%           0.5114           51.08%            0.5111         +0.13%           50.92%            0.5115         -0.02%

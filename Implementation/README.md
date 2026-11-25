@@ -193,3 +193,52 @@ All terminal outputs are logged automatically in `results/logs/`:
    Across all six model and precision variants (Base FP16, Base 8-bit, Base 4-bit, Instruct FP16, Instruct 8-bit, Instruct 4-bit), the **middle layer (index -16)** consistently retains the highest truthfulness score (~82%–83.5%), confirming that architectural layer specificity is immune to aggressive quantization.
 3. **Instruct Model Benefits in Late Decoding Layers:**
    Instruction fine-tuning maintains higher veracity in the upper layers (28th layer: ~71–73% in Instruct vs ~67–69% in Base) regardless of whether the model is in 16-bit, 8-bit, or 4-bit.
+
+---
+
+## 6. Cross-Precision Transfer & Complete 28-Layer Benchmarks
+
+We evaluated whether truth probes (3-layer MLPs) trained exclusively on **Full Precision (FP16)** internal representations generalize zero-shot when evaluated on **8-bit** and **4-bit** quantized representations. All probe training runs used locked random seeds (`seeds = [42, 123, 999]`) across 3 repetitions for exact determinism.
+
+### Complete 28-Layer Depth Trajectory & Transfer Performance
+
+#### Base Model (`LLaMA-3.2-3B`)
+| Layer | Index | FP16 Native Acc | FP16 Native AUC | FP16 $\to$ 8-bit Acc | $\Delta$ 8-bit | FP16 $\to$ 4-bit Acc | $\Delta$ 4-bit |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Layer-1 (Last)** | -1 | 68.54% | 0.8044 | 68.29% | -0.24% | 68.13% | -0.40% |
+| **Layer-4** | -4 | 68.72% | 0.8060 | 68.00% | -0.72% | 67.02% | -1.70% |
+| **Layer-8** | -8 | 72.47% | 0.8472 | 72.13% | -0.34% | 72.04% | -0.43% |
+| **Layer-12** | -12 | 77.89% | 0.8864 | 77.90% | +0.01% | 76.90% | -0.99% |
+| **Layer-14 (Middle)**| -14 | 78.25% | 0.8990 | 77.58% | -0.68% | 76.34% | -1.92% |
+| **Layer-16 (Peak)** | **-16** | **80.98%** | **0.9037** | **80.90%** | **-0.08%** | **79.31%** | **-1.67%** |
+| **Layer-18** | -18 | 80.52% | 0.8984 | 80.44% | -0.08% | 79.64% | -0.88% |
+| **Layer-20** | -20 | 77.06% | 0.8623 | 76.92% | -0.14% | 75.87% | -1.19% |
+| **Layer-24** | -24 | 61.21% | 0.6896 | 60.71% | -0.51% | 60.75% | -0.47% |
+| **Layer-28 (First)**| -28 | 51.73% | 0.5184 | 51.48% | -0.25% | 51.72% | -0.01% |
+
+#### Instruct Model (`LLaMA-3.2-3B-Instruct`)
+| Layer | Index | FP16 Native Acc | FP16 Native AUC | FP16 $\to$ 8-bit Acc | $\Delta$ 8-bit | FP16 $\to$ 4-bit Acc | $\Delta$ 4-bit |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Layer-1 (Last)** | -1 | 70.19% | 0.8092 | 70.55% | +0.36% | 69.14% | -1.04% |
+| **Layer-4** | -4 | 72.10% | 0.8413 | 72.33% | +0.23% | 70.85% | -1.25% |
+| **Layer-8** | -8 | 74.58% | 0.8648 | 74.47% | -0.12% | 73.86% | -0.72% |
+| **Layer-12** | -12 | 77.82% | 0.8873 | 77.88% | +0.06% | 77.04% | -0.79% |
+| **Layer-14 (Middle)**| -14 | 79.10% | 0.8953 | 79.26% | +0.15% | 78.29% | -0.81% |
+| **Layer-16** | -16 | 81.05% | 0.9034 | 80.86% | -0.19% | 80.48% | -0.57% |
+| **Layer-18 (Peak)** | **-18** | **81.25%** | **0.9003** | **81.31%** | **+0.06%** | **80.60%** | **-0.65%** |
+| **Layer-20** | -20 | 77.43% | 0.8700 | 77.28% | -0.15% | 76.77% | -0.66% |
+| **Layer-24** | -24 | 61.20% | 0.6917 | 60.94% | -0.26% | 60.80% | -0.40% |
+| **Layer-28 (First)**| -28 | 50.95% | 0.5114 | 51.08% | +0.13% | 50.92% | -0.02% |
+
+### Reproduction Commands
+```powershell
+# Run cross-precision transfer benchmark on 5 candidate layers:
+python run_probe_transfer.py --model all
+
+# Extract all 28 layers:
+python extract_all_28_layers.py --model base --precision fp16
+
+# Run full 28-layer probe transfer pipeline:
+python run_all_28_layers_probe_transfer.py --model all
+```
+*(All 28-layer results are saved in `results/probe_transfer_all_28_layers_base.csv` and `results/probe_transfer_all_28_layers_instruct.csv`).*

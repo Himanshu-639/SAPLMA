@@ -5,12 +5,18 @@
 __pycache__/
 *.py[cod]
 
-# Model weights
+# Model weights & trained probe checkpoints
 *.pt
 *.pth
 *.bin
 *.safetensors
 *.ckpt
+*.h5
+*.weights.h5
+saved_probes/
+**/saved_probes/
+saved_probes_28layers/
+**/saved_probes_28layers/
 
 # Pre-extracted activation vector embeddings (~13 GB)
 embeddings/

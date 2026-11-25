@@ -112,11 +112,23 @@ python run_paper_experiments.py --experiment permutation --model opt
 python run_paper_experiments.py --experiment table5 --model opt
 ```
 
+### F. Cross-Precision Transfer Benchmarks (FP16 $\to$ 8-bit & 4-bit)
+Evaluates whether probes trained on Full Precision (FP16) generalize to quantized activations:
+```bash
+# 5 candidate layers transfer benchmark:
+python run_probe_transfer.py --model all
+
+# Full 28-layer depth extraction and probe transfer benchmark (with locked seeds):
+python run_full_28_layers_pipeline.py
+```
+
 ---
 
 ## 4. Results & Logs
 
 All outputs are saved in `Implementation/results/`:
+* `probe_transfer_all_28_layers_base.csv` & `probe_transfer_all_28_layers_instruct.csv`: Full 28-layer cross-precision results.
+* `comparison_probe_transfer_fp16_to_quantized.csv`: Master FP16 to quantized transfer comparison.
 * `comparison_quantization_vs_full_precision_vs_paper.csv`: Master multi-precision accuracy & AUROC comparison.
 * `comparison_instruct_vs_pretrained_vs_paper.csv`: Comparison between Base, Instruct, and published paper numbers.
 * `saplma_cross_topic_6.7b_results.csv`: OPT-6.7b topic-by-topic cross-validation results.

@@ -1,0 +1,211 @@
+
+================================================================================
+ PROBE CROSS-PRECISION TRANSFER EVALUATION: LLaMA-3.2-3B-Instruct
+ Train: Full Precision (FP16) Probes -> Test on: FP16 (Native), 8-bit, and 4-bit
+ Saved Probes Destination: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct
+================================================================================
+
+
+================================================================================
+>>> Evaluating Layer: last-layer (Index -1)
+================================================================================
+
+--- [Topic: cities] Training FP16 Probe on remaining 5 topics ---
+  [cities      ] Native FP16  : Acc = 0.7798, AUC = 0.8510
+  [cities      ] Transferred 8b: Acc = 0.7842, AUC = 0.8529 (Δ Acc: +0.0043)
+  [cities      ] Transferred 4b: Acc = 0.7341, AUC = 0.8315 (Δ Acc: -0.0457)
+
+--- [Topic: inventions] Training FP16 Probe on remaining 5 topics ---
+  [inventions  ] Native FP16  : Acc = 0.6374, AUC = 0.7837
+  [inventions  ] Transferred 8b: Acc = 0.6396, AUC = 0.7805 (Δ Acc: +0.0023)
+  [inventions  ] Transferred 4b: Acc = 0.6298, AUC = 0.7818 (Δ Acc: -0.0076)
+
+--- [Topic: elements] Training FP16 Probe on remaining 5 topics ---
+  [elements    ] Native FP16  : Acc = 0.7011, AUC = 0.7997
+  [elements    ] Transferred 8b: Acc = 0.7054, AUC = 0.7957 (Δ Acc: +0.0043)
+  [elements    ] Transferred 4b: Acc = 0.6921, AUC = 0.7931 (Δ Acc: -0.0090)
+
+--- [Topic: animals] Training FP16 Probe on remaining 5 topics ---
+  [animals     ] Native FP16  : Acc = 0.6941, AUC = 0.7866
+  [animals     ] Transferred 8b: Acc = 0.6938, AUC = 0.7879 (Δ Acc: -0.0003)
+  [animals     ] Transferred 4b: Acc = 0.6799, AUC = 0.7778 (Δ Acc: -0.0142)
+
+--- [Topic: companies] Training FP16 Probe on remaining 5 topics ---
+  [companies   ] Native FP16  : Acc = 0.5886, AUC = 0.6918
+  [companies   ] Transferred 8b: Acc = 0.5922, AUC = 0.6979 (Δ Acc: +0.0036)
+  [companies   ] Transferred 4b: Acc = 0.5992, AUC = 0.6913 (Δ Acc: +0.0106)
+
+--- [Topic: facts] Training FP16 Probe on remaining 5 topics ---
+  [facts       ] Native FP16  : Acc = 0.8173, AUC = 0.9322
+  [facts       ] Transferred 8b: Acc = 0.8167, AUC = 0.9316 (Δ Acc: -0.0005)
+  [facts       ] Transferred 4b: Acc = 0.8102, AUC = 0.9248 (Δ Acc: -0.0071)
+  [Saved Global Probe]: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct\probe_llama3.2_3b_instruct_layer1_global_all_topics.weights.h5
+
+  >>> Layer Summary (last-layer) <<<
+  Native FP16        : Mean Acc = 70.30%, Mean AUC = 0.8075
+  FP16 Probe -> 8-bit: Mean Acc = 70.53%, Mean AUC = 0.8078 (Δ Acc: +0.23%)
+  FP16 Probe -> 4-bit: Mean Acc = 69.09%, Mean AUC = 0.8001 (Δ Acc: -1.22%)
+
+================================================================================
+>>> Evaluating Layer: 28th-layer (Index -4)
+================================================================================
+
+--- [Topic: cities] Training FP16 Probe on remaining 5 topics ---
+  [cities      ] Native FP16  : Acc = 0.6792, AUC = 0.8721
+  [cities      ] Transferred 8b: Acc = 0.6806, AUC = 0.8752 (Δ Acc: +0.0014)
+  [cities      ] Transferred 4b: Acc = 0.6566, AUC = 0.8666 (Δ Acc: -0.0226)
+
+--- [Topic: inventions] Training FP16 Probe on remaining 5 topics ---
+  [inventions  ] Native FP16  : Acc = 0.6659, AUC = 0.8596
+  [inventions  ] Transferred 8b: Acc = 0.6663, AUC = 0.8568 (Δ Acc: +0.0004)
+  [inventions  ] Transferred 4b: Acc = 0.6450, AUC = 0.8504 (Δ Acc: -0.0209)
+
+--- [Topic: elements] Training FP16 Probe on remaining 5 topics ---
+  [elements    ] Native FP16  : Acc = 0.7118, AUC = 0.8029
+  [elements    ] Transferred 8b: Acc = 0.7151, AUC = 0.8029 (Δ Acc: +0.0032)
+  [elements    ] Transferred 4b: Acc = 0.6982, AUC = 0.8005 (Δ Acc: -0.0136)
+
+--- [Topic: animals] Training FP16 Probe on remaining 5 topics ---
+  [animals     ] Native FP16  : Acc = 0.6548, AUC = 0.8040
+  [animals     ] Transferred 8b: Acc = 0.6594, AUC = 0.8065 (Δ Acc: +0.0046)
+  [animals     ] Transferred 4b: Acc = 0.6392, AUC = 0.7944 (Δ Acc: -0.0155)
+
+--- [Topic: companies] Training FP16 Probe on remaining 5 topics ---
+  [companies   ] Native FP16  : Acc = 0.6914, AUC = 0.7854
+  [companies   ] Transferred 8b: Acc = 0.6967, AUC = 0.7869 (Δ Acc: +0.0053)
+  [companies   ] Transferred 4b: Acc = 0.6831, AUC = 0.7815 (Δ Acc: -0.0083)
+
+--- [Topic: facts] Training FP16 Probe on remaining 5 topics ---
+  [facts       ] Native FP16  : Acc = 0.8167, AUC = 0.9257
+  [facts       ] Transferred 8b: Acc = 0.8189, AUC = 0.9244 (Δ Acc: +0.0022)
+  [facts       ] Transferred 4b: Acc = 0.8091, AUC = 0.9203 (Δ Acc: -0.0076)
+  [Saved Global Probe]: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct\probe_llama3.2_3b_instruct_layer4_global_all_topics.weights.h5
+
+  >>> Layer Summary (28th-layer) <<<
+  Native FP16        : Mean Acc = 70.33%, Mean AUC = 0.8416
+  FP16 Probe -> 8-bit: Mean Acc = 70.62%, Mean AUC = 0.8421 (Δ Acc: +0.28%)
+  FP16 Probe -> 4-bit: Mean Acc = 68.85%, Mean AUC = 0.8356 (Δ Acc: -1.48%)
+
+================================================================================
+>>> Evaluating Layer: 24th-layer (Index -8)
+================================================================================
+
+--- [Topic: cities] Training FP16 Probe on remaining 5 topics ---
+  [cities      ] Native FP16  : Acc = 0.8134, AUC = 0.9087
+  [cities      ] Transferred 8b: Acc = 0.8118, AUC = 0.9110 (Δ Acc: -0.0016)
+  [cities      ] Transferred 4b: Acc = 0.7986, AUC = 0.9059 (Δ Acc: -0.0149)
+
+--- [Topic: inventions] Training FP16 Probe on remaining 5 topics ---
+  [inventions  ] Native FP16  : Acc = 0.7489, AUC = 0.9118
+  [inventions  ] Transferred 8b: Acc = 0.7519, AUC = 0.9103 (Δ Acc: +0.0030)
+  [inventions  ] Transferred 4b: Acc = 0.7568, AUC = 0.9082 (Δ Acc: +0.0080)
+
+--- [Topic: elements] Training FP16 Probe on remaining 5 topics ---
+  [elements    ] Native FP16  : Acc = 0.7344, AUC = 0.7889
+  [elements    ] Transferred 8b: Acc = 0.7348, AUC = 0.7881 (Δ Acc: +0.0004)
+  [elements    ] Transferred 4b: Acc = 0.7179, AUC = 0.7805 (Δ Acc: -0.0165)
+
+--- [Topic: animals] Training FP16 Probe on remaining 5 topics ---
+  [animals     ] Native FP16  : Acc = 0.6941, AUC = 0.8107
+  [animals     ] Transferred 8b: Acc = 0.6944, AUC = 0.8123 (Δ Acc: +0.0003)
+  [animals     ] Transferred 4b: Acc = 0.6782, AUC = 0.8033 (Δ Acc: -0.0159)
+
+--- [Topic: companies] Training FP16 Probe on remaining 5 topics ---
+  [companies   ] Native FP16  : Acc = 0.7572, AUC = 0.8512
+  [companies   ] Transferred 8b: Acc = 0.7483, AUC = 0.8442 (Δ Acc: -0.0089)
+  [companies   ] Transferred 4b: Acc = 0.7397, AUC = 0.8355 (Δ Acc: -0.0175)
+
+--- [Topic: facts] Training FP16 Probe on remaining 5 topics ---
+  [facts       ] Native FP16  : Acc = 0.8206, AUC = 0.9283
+  [facts       ] Transferred 8b: Acc = 0.8189, AUC = 0.9269 (Δ Acc: -0.0016)
+  [facts       ] Transferred 4b: Acc = 0.8162, AUC = 0.9224 (Δ Acc: -0.0044)
+  [Saved Global Probe]: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct\probe_llama3.2_3b_instruct_layer8_global_all_topics.weights.h5
+
+  >>> Layer Summary (24th-layer) <<<
+  Native FP16        : Mean Acc = 76.14%, Mean AUC = 0.8666
+  FP16 Probe -> 8-bit: Mean Acc = 76.00%, Mean AUC = 0.8655 (Δ Acc: -0.14%)
+  FP16 Probe -> 4-bit: Mean Acc = 75.13%, Mean AUC = 0.8593 (Δ Acc: -1.02%)
+
+================================================================================
+>>> Evaluating Layer: 20th-layer (Index -12)
+================================================================================
+
+--- [Topic: cities] Training FP16 Probe on remaining 5 topics ---
+  [cities      ] Native FP16  : Acc = 0.8809, AUC = 0.9515
+  [cities      ] Transferred 8b: Acc = 0.8845, AUC = 0.9531 (Δ Acc: +0.0037)
+  [cities      ] Transferred 4b: Acc = 0.8551, AUC = 0.9446 (Δ Acc: -0.0258)
+
+--- [Topic: inventions] Training FP16 Probe on remaining 5 topics ---
+  [inventions  ] Native FP16  : Acc = 0.8360, AUC = 0.9270
+  [inventions  ] Transferred 8b: Acc = 0.8314, AUC = 0.9254 (Δ Acc: -0.0046)
+  [inventions  ] Transferred 4b: Acc = 0.8185, AUC = 0.9206 (Δ Acc: -0.0175)
+
+--- [Topic: elements] Training FP16 Probe on remaining 5 topics ---
+  [elements    ] Native FP16  : Acc = 0.6634, AUC = 0.7839
+  [elements    ] Transferred 8b: Acc = 0.6613, AUC = 0.7838 (Δ Acc: -0.0022)
+  [elements    ] Transferred 4b: Acc = 0.6656, AUC = 0.7708 (Δ Acc: +0.0022)
+
+--- [Topic: animals] Training FP16 Probe on remaining 5 topics ---
+  [animals     ] Native FP16  : Acc = 0.7090, AUC = 0.8425
+  [animals     ] Transferred 8b: Acc = 0.7087, AUC = 0.8434 (Δ Acc: -0.0003)
+  [animals     ] Transferred 4b: Acc = 0.7040, AUC = 0.8451 (Δ Acc: -0.0050)
+
+--- [Topic: companies] Training FP16 Probe on remaining 5 topics ---
+  [companies   ] Native FP16  : Acc = 0.8292, AUC = 0.9055
+  [companies   ] Transferred 8b: Acc = 0.8267, AUC = 0.9036 (Δ Acc: -0.0025)
+  [companies   ] Transferred 4b: Acc = 0.8139, AUC = 0.8905 (Δ Acc: -0.0153)
+
+--- [Topic: facts] Training FP16 Probe on remaining 5 topics ---
+  [facts       ] Native FP16  : Acc = 0.7934, AUC = 0.9209
+  [facts       ] Transferred 8b: Acc = 0.7928, AUC = 0.9190 (Δ Acc: -0.0005)
+  [facts       ] Transferred 4b: Acc = 0.7868, AUC = 0.9140 (Δ Acc: -0.0065)
+  [Saved Global Probe]: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct\probe_llama3.2_3b_instruct_layer12_global_all_topics.weights.h5
+
+  >>> Layer Summary (20th-layer) <<<
+  Native FP16        : Mean Acc = 78.53%, Mean AUC = 0.8886
+  FP16 Probe -> 8-bit: Mean Acc = 78.42%, Mean AUC = 0.8880 (Δ Acc: -0.11%)
+  FP16 Probe -> 4-bit: Mean Acc = 77.40%, Mean AUC = 0.8810 (Δ Acc: -1.13%)
+
+================================================================================
+>>> Evaluating Layer: middle-layer (Index -16)
+================================================================================
+
+--- [Topic: cities] Training FP16 Probe on remaining 5 topics ---
+  [cities      ] Native FP16  : Acc = 0.9326, AUC = 0.9759
+  [cities      ] Transferred 8b: Acc = 0.9287, AUC = 0.9751 (Δ Acc: -0.0039)
+  [cities      ] Transferred 4b: Acc = 0.9348, AUC = 0.9750 (Δ Acc: +0.0023)
+
+--- [Topic: inventions] Training FP16 Probe on remaining 5 topics ---
+  [inventions  ] Native FP16  : Acc = 0.8238, AUC = 0.9305
+  [inventions  ] Transferred 8b: Acc = 0.8193, AUC = 0.9286 (Δ Acc: -0.0046)
+  [inventions  ] Transferred 4b: Acc = 0.8124, AUC = 0.9233 (Δ Acc: -0.0114)
+
+--- [Topic: elements] Training FP16 Probe on remaining 5 topics ---
+  [elements    ] Native FP16  : Acc = 0.7233, AUC = 0.8204
+  [elements    ] Transferred 8b: Acc = 0.7215, AUC = 0.8183 (Δ Acc: -0.0018)
+  [elements    ] Transferred 4b: Acc = 0.7143, AUC = 0.8007 (Δ Acc: -0.0090)
+
+--- [Topic: animals] Training FP16 Probe on remaining 5 topics ---
+  [animals     ] Native FP16  : Acc = 0.7361, AUC = 0.8496
+  [animals     ] Transferred 8b: Acc = 0.7331, AUC = 0.8499 (Δ Acc: -0.0030)
+  [animals     ] Transferred 4b: Acc = 0.7460, AUC = 0.8578 (Δ Acc: +0.0099)
+
+--- [Topic: companies] Training FP16 Probe on remaining 5 topics ---
+  [companies   ] Native FP16  : Acc = 0.8986, AUC = 0.9544
+  [companies   ] Transferred 8b: Acc = 0.8983, AUC = 0.9544 (Δ Acc: -0.0003)
+  [companies   ] Transferred 4b: Acc = 0.8911, AUC = 0.9498 (Δ Acc: -0.0075)
+
+--- [Topic: facts] Training FP16 Probe on remaining 5 topics ---
+  [facts       ] Native FP16  : Acc = 0.8146, AUC = 0.9089
+  [facts       ] Transferred 8b: Acc = 0.8173, AUC = 0.9079 (Δ Acc: +0.0027)
+  [facts       ] Transferred 4b: Acc = 0.8048, AUC = 0.9024 (Δ Acc: -0.0098)
+  [Saved Global Probe]: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes\llama3.2_3b_instruct\probe_llama3.2_3b_instruct_layer16_global_all_topics.weights.h5
+
+  >>> Layer Summary (middle-layer) <<<
+  Native FP16        : Mean Acc = 82.15%, Mean AUC = 0.9066
+  FP16 Probe -> 8-bit: Mean Acc = 81.97%, Mean AUC = 0.9057 (Δ Acc: -0.18%)
+  FP16 Probe -> 4-bit: Mean Acc = 81.73%, Mean AUC = 0.9015 (Δ Acc: -0.42%)
+
+[Saved Results]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\probe_transfer_instruct_fp16_to_8bit_results.csv
+[Saved Results]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\probe_transfer_instruct_fp16_to_4bit_results.csv
+
