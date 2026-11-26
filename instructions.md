@@ -112,14 +112,17 @@ python run_paper_experiments.py --experiment permutation --model opt
 python run_paper_experiments.py --experiment table5 --model opt
 ```
 
-### F. Cross-Precision Transfer Benchmarks (FP16 $\to$ 8-bit & 4-bit)
-Evaluates whether probes trained on Full Precision (FP16) generalize to quantized activations:
+### F. Cross-Precision Transfer & Native Quantized Benchmarks (All 28 Layers)
+Evaluates whether probes trained on Full Precision (FP16) generalize to quantized activations, and compares against native retrained probes:
 ```bash
 # 5 candidate layers transfer benchmark:
 python run_probe_transfer.py --model all
 
 # Full 28-layer depth extraction and probe transfer benchmark (with locked seeds):
 python run_full_28_layers_pipeline.py
+
+# Train native quantized probes across all 28 layers and generate direct comparisons:
+python run_all_28_layers_native_quant_probes.py --model all --precision all
 ```
 
 ---
@@ -127,7 +130,10 @@ python run_full_28_layers_pipeline.py
 ## 4. Results & Logs
 
 All outputs are saved in `Implementation/results/`:
-* `probe_transfer_all_28_layers_base.csv` & `probe_transfer_all_28_layers_instruct.csv`: Full 28-layer cross-precision results.
+* `all_28_layers_native_vs_transfer_comparison_base.csv` & `all_28_layers_native_vs_transfer_comparison_instruct.csv`: Full 28-layer side-by-side comparison (FP16 Native vs Transfer vs Retrained).
+* `probe_transfer_all_28_layers_base.csv` & `probe_transfer_all_28_layers_instruct.csv`: Full 28-layer cross-precision transfer results.
+* `saplma_all_28_layers_llama3.2_3b_8bit_results.csv` & `saplma_all_28_layers_llama3.2_3b_4bit_results.csv`: Native 8-bit and 4-bit Base probe results.
+* `saplma_all_28_layers_llama3.2_3b_instruct_8bit_results.csv` & `saplma_all_28_layers_llama3.2_3b_instruct_4bit_results.csv`: Native 8-bit and 4-bit Instruct probe results.
 * `comparison_probe_transfer_fp16_to_quantized.csv`: Master FP16 to quantized transfer comparison.
 * `comparison_quantization_vs_full_precision_vs_paper.csv`: Master multi-precision accuracy & AUROC comparison.
 * `comparison_instruct_vs_pretrained_vs_paper.csv`: Comparison between Base, Instruct, and published paper numbers.

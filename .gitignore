@@ -13,6 +13,7 @@ __pycache__/
 *.ckpt
 *.h5
 *.weights.h5
+*.keras
 saved_probes/
 **/saved_probes/
 saved_probes_28layers/

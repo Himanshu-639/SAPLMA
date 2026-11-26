@@ -1,0 +1,222 @@
+
+================================================================================
+ TRAINING NATIVE PROBES ON 8BIT ACTIVATIONS ACROSS ALL 28 LAYERS
+ Model: LLaMA-3.2-3B-Instruct [8bit Native] | Tag: llama3.2_3b_instruct_8bit
+ Checkpoint Destination: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes_28layers\llama3.2_3b_instruct_8bit
+ Protocol: 6-fold Leave-One-Topic-Out, Reps=3, Epochs=5, Seeds=[42, 123, 999]
+================================================================================
+
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-1 (Last) (Index -1, file index 1) <<<
+  --> Layer-1 (Last): Average Accuracy = 71.52% | Average AUC = 0.8108
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-2 (Index -2, file index 2) <<<
+  --> Layer-2: Average Accuracy = 72.11% | Average AUC = 0.8316
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-3 (Index -3, file index 3) <<<
+  --> Layer-3: Average Accuracy = 73.08% | Average AUC = 0.8479
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-4 (Index -4, file index 4) <<<
+  --> Layer-4: Average Accuracy = 73.27% | Average AUC = 0.8433
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-5 (Index -5, file index 5) <<<
+  --> Layer-5: Average Accuracy = 71.92% | Average AUC = 0.8485
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-6 (Index -6, file index 6) <<<
+  --> Layer-6: Average Accuracy = 72.96% | Average AUC = 0.8562
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-7 (Index -7, file index 7) <<<
+  --> Layer-7: Average Accuracy = 75.38% | Average AUC = 0.8661
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-8 (Index -8, file index 8) <<<
+  --> Layer-8: Average Accuracy = 75.13% | Average AUC = 0.8654
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-9 (Index -9, file index 9) <<<
+  --> Layer-9: Average Accuracy = 75.88% | Average AUC = 0.8730
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-10 (Index -10, file index 10) <<<
+  --> Layer-10: Average Accuracy = 75.92% | Average AUC = 0.8826
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-11 (Index -11, file index 11) <<<
+  --> Layer-11: Average Accuracy = 77.28% | Average AUC = 0.8844
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-12 (Index -12, file index 12) <<<
+  --> Layer-12: Average Accuracy = 77.28% | Average AUC = 0.8882
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-13 (Index -13, file index 13) <<<
+  --> Layer-13: Average Accuracy = 77.78% | Average AUC = 0.8877
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-14 (Middle) (Index -14, file index 14) <<<
+  --> Layer-14 (Middle): Average Accuracy = 79.68% | Average AUC = 0.8955
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-15 (Index -15, file index 15) <<<
+  --> Layer-15: Average Accuracy = 80.41% | Average AUC = 0.8979
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-16 (Index -16, file index 16) <<<
+  --> Layer-16: Average Accuracy = 81.02% | Average AUC = 0.9034
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-17 (Index -17, file index 17) <<<
+  --> Layer-17: Average Accuracy = 80.77% | Average AUC = 0.8981
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-18 (Index -18, file index 18) <<<
+  --> Layer-18: Average Accuracy = 80.71% | Average AUC = 0.8988
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-19 (Index -19, file index 19) <<<
+  --> Layer-19: Average Accuracy = 78.02% | Average AUC = 0.8788
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-20 (Index -20, file index 20) <<<
+  --> Layer-20: Average Accuracy = 76.65% | Average AUC = 0.8671
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-21 (Index -21, file index 21) <<<
+  --> Layer-21: Average Accuracy = 73.30% | Average AUC = 0.8194
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-22 (Index -22, file index 22) <<<
+  --> Layer-22: Average Accuracy = 67.51% | Average AUC = 0.7610
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-23 (Index -23, file index 23) <<<
+  --> Layer-23: Average Accuracy = 64.81% | Average AUC = 0.7415
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-24 (Index -24, file index 24) <<<
+  --> Layer-24: Average Accuracy = 60.85% | Average AUC = 0.6821
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-25 (Index -25, file index 25) <<<
+  --> Layer-25: Average Accuracy = 60.19% | Average AUC = 0.6634
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-26 (Index -26, file index 26) <<<
+  --> Layer-26: Average Accuracy = 53.33% | Average AUC = 0.5763
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-27 (Index -27, file index 27) <<<
+  --> Layer-27: Average Accuracy = 51.35% | Average AUC = 0.5352
+
+>>> [llama3.2_3b_instruct_8bit] Training Native Probes for Layer-28 (First) (Index -28, file index 28) <<<
+  --> Layer-28 (First): Average Accuracy = 51.14% | Average AUC = 0.5158
+
+[Saved Native Results]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\saplma_all_28_layers_llama3.2_3b_instruct_8bit_results.csv
+
+
+================================================================================
+ TRAINING NATIVE PROBES ON 4BIT ACTIVATIONS ACROSS ALL 28 LAYERS
+ Model: LLaMA-3.2-3B-Instruct [4bit Native] | Tag: llama3.2_3b_instruct_4bit
+ Checkpoint Destination: C:\Users\hp\Desktop\SAPLMA\Implementation\saved_probes_28layers\llama3.2_3b_instruct_4bit
+ Protocol: 6-fold Leave-One-Topic-Out, Reps=3, Epochs=5, Seeds=[42, 123, 999]
+================================================================================
+
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-1 (Last) (Index -1, file index 1) <<<
+  --> Layer-1 (Last): Average Accuracy = 68.65% | Average AUC = 0.8112
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-2 (Index -2, file index 2) <<<
+  --> Layer-2: Average Accuracy = 68.06% | Average AUC = 0.8280
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-3 (Index -3, file index 3) <<<
+  --> Layer-3: Average Accuracy = 71.44% | Average AUC = 0.8456
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-4 (Index -4, file index 4) <<<
+  --> Layer-4: Average Accuracy = 71.23% | Average AUC = 0.8358
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-5 (Index -5, file index 5) <<<
+  --> Layer-5: Average Accuracy = 72.20% | Average AUC = 0.8468
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-6 (Index -6, file index 6) <<<
+  --> Layer-6: Average Accuracy = 71.26% | Average AUC = 0.8561
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-7 (Index -7, file index 7) <<<
+  --> Layer-7: Average Accuracy = 72.75% | Average AUC = 0.8620
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-8 (Index -8, file index 8) <<<
+  --> Layer-8: Average Accuracy = 73.69% | Average AUC = 0.8587
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-9 (Index -9, file index 9) <<<
+  --> Layer-9: Average Accuracy = 73.94% | Average AUC = 0.8662
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-10 (Index -10, file index 10) <<<
+  --> Layer-10: Average Accuracy = 76.03% | Average AUC = 0.8752
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-11 (Index -11, file index 11) <<<
+  --> Layer-11: Average Accuracy = 76.73% | Average AUC = 0.8852
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-12 (Index -12, file index 12) <<<
+  --> Layer-12: Average Accuracy = 77.72% | Average AUC = 0.8864
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-13 (Index -13, file index 13) <<<
+  --> Layer-13: Average Accuracy = 78.11% | Average AUC = 0.8828
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-14 (Middle) (Index -14, file index 14) <<<
+  --> Layer-14 (Middle): Average Accuracy = 79.37% | Average AUC = 0.8913
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-15 (Index -15, file index 15) <<<
+  --> Layer-15: Average Accuracy = 80.08% | Average AUC = 0.8928
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-16 (Index -16, file index 16) <<<
+  --> Layer-16: Average Accuracy = 80.87% | Average AUC = 0.8980
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-17 (Index -17, file index 17) <<<
+  --> Layer-17: Average Accuracy = 80.56% | Average AUC = 0.8970
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-18 (Index -18, file index 18) <<<
+  --> Layer-18: Average Accuracy = 80.51% | Average AUC = 0.8899
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-19 (Index -19, file index 19) <<<
+  --> Layer-19: Average Accuracy = 78.26% | Average AUC = 0.8717
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-20 (Index -20, file index 20) <<<
+  --> Layer-20: Average Accuracy = 76.07% | Average AUC = 0.8600
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-21 (Index -21, file index 21) <<<
+  --> Layer-21: Average Accuracy = 73.64% | Average AUC = 0.8194
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-22 (Index -22, file index 22) <<<
+  --> Layer-22: Average Accuracy = 66.89% | Average AUC = 0.7575
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-23 (Index -23, file index 23) <<<
+  --> Layer-23: Average Accuracy = 65.14% | Average AUC = 0.7365
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-24 (Index -24, file index 24) <<<
+  --> Layer-24: Average Accuracy = 61.89% | Average AUC = 0.6877
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-25 (Index -25, file index 25) <<<
+  --> Layer-25: Average Accuracy = 59.47% | Average AUC = 0.6623
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-26 (Index -26, file index 26) <<<
+  --> Layer-26: Average Accuracy = 54.86% | Average AUC = 0.5876
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-27 (Index -27, file index 27) <<<
+  --> Layer-27: Average Accuracy = 51.77% | Average AUC = 0.5228
+
+>>> [llama3.2_3b_instruct_4bit] Training Native Probes for Layer-28 (First) (Index -28, file index 28) <<<
+  --> Layer-28 (First): Average Accuracy = 51.05% | Average AUC = 0.5108
+
+[Saved Native Results]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\saplma_all_28_layers_llama3.2_3b_instruct_4bit_results.csv
+
+
+[Master Comparison Saved]: C:\Users\hp\Desktop\SAPLMA\Implementation\results\all_28_layers_native_vs_transfer_comparison_instruct.csv
+
+            Layer  Layer_Index  Layer_Num FP16_Native_Acc  FP16_Native_AUC FP16_to_8bit_Transfer_Acc  FP16_to_8bit_Transfer_AUC 8bit_Retrained_Acc  8bit_Retrained_AUC Delta_8bit_Transfer_vs_Retrained FP16_to_4bit_Transfer_Acc  FP16_to_4bit_Transfer_AUC 4bit_Retrained_Acc  4bit_Retrained_AUC Delta_4bit_Transfer_vs_Retrained
+   Layer-1 (Last)           -1          1          70.19%           0.8092                    70.55%                     0.8098             71.52%              0.8108                           -0.97%                    69.14%                     0.8030             68.65%              0.8112                           +0.49%
+          Layer-2           -2          2          70.51%           0.8320                    70.62%                     0.8322             72.11%              0.8316                           -1.49%                    68.45%                     0.8241             68.06%              0.8280                           +0.39%
+          Layer-3           -3          3          71.88%           0.8423                    71.97%                     0.8423             73.08%              0.8479                           -1.11%                    70.72%                     0.8362             71.44%              0.8456                           -0.72%
+          Layer-4           -4          4          72.10%           0.8413                    72.33%                     0.8413             73.27%              0.8433                           -0.94%                    70.85%                     0.8335             71.23%              0.8358                           -0.38%
+          Layer-5           -5          5          71.09%           0.8431                    71.35%                     0.8436             71.92%              0.8485                           -0.57%                    69.62%                     0.8352             72.20%              0.8468                           -2.58%
+          Layer-6           -6          6          72.94%           0.8580                    72.96%                     0.8574             72.96%              0.8562                           +0.00%                    71.64%                     0.8509             71.26%              0.8561                           +0.38%
+          Layer-7           -7          7          74.79%           0.8622                    74.59%                     0.8617             75.38%              0.8661                           -0.79%                    73.97%                     0.8555             72.75%              0.8620                           +1.22%
+          Layer-8           -8          8          74.58%           0.8648                    74.47%                     0.8637             75.13%              0.8654                           -0.66%                    73.86%                     0.8594             73.69%              0.8587                           +0.17%
+          Layer-9           -9          9          75.53%           0.8713                    75.59%                     0.8707             75.88%              0.8730                           -0.29%                    74.06%                     0.8645             73.94%              0.8662                           +0.12%
+         Layer-10          -10         10          76.77%           0.8818                    76.80%                     0.8804             75.92%              0.8826                           +0.88%                    75.19%                     0.8755             76.03%              0.8752                           -0.84%
+         Layer-11          -11         11          77.76%           0.8854                    77.94%                     0.8847             77.28%              0.8844                           +0.66%                    76.56%                     0.8782             76.73%              0.8852                           -0.17%
+         Layer-12          -12         12          77.82%           0.8873                    77.88%                     0.8865             77.28%              0.8882                           +0.60%                    77.04%                     0.8812             77.72%              0.8864                           -0.68%
+         Layer-13          -13         13          77.49%           0.8859                    77.49%                     0.8852             77.78%              0.8877                           -0.29%                    76.66%                     0.8801             78.11%              0.8828                           -1.45%
+Layer-14 (Middle)          -14         14          79.10%           0.8953                    79.26%                     0.8945             79.68%              0.8955                           -0.42%                    78.29%                     0.8904             79.37%              0.8913                           -1.08%
+         Layer-15          -15         15          80.24%           0.8978                    80.23%                     0.8973             80.41%              0.8979                           -0.18%                    79.84%                     0.8931             80.08%              0.8928                           -0.24%
+         Layer-16          -16         16          81.05%           0.9034                    80.86%                     0.9026             81.02%              0.9034                           -0.16%                    80.48%                     0.8982             80.87%              0.8980                           -0.39%
+         Layer-17          -17         17          81.19%           0.9012                    80.90%                     0.9008             80.77%              0.8981                           +0.13%                    80.60%                     0.8968             80.56%              0.8970                           +0.04%
+         Layer-18          -18         18          81.25%           0.9003                    81.31%                     0.9004             80.71%              0.8988                           +0.60%                    80.60%                     0.8932             80.51%              0.8899                           +0.09%
+         Layer-19          -19         19          78.39%           0.8809                    78.29%                     0.8798             78.02%              0.8788                           +0.27%                    77.87%                     0.8730             78.26%              0.8717                           -0.39%
+         Layer-20          -20         20          77.43%           0.8700                    77.28%                     0.8682             76.65%              0.8671                           +0.63%                    76.77%                     0.8626             76.07%              0.8600                           +0.70%
+         Layer-21          -21         21          73.48%           0.8265                    73.06%                     0.8236             73.30%              0.8194                           -0.24%                    72.93%                     0.8198             73.64%              0.8194                           -0.71%
+         Layer-22          -22         22          67.49%           0.7615                    67.20%                     0.7578             67.51%              0.7610                           -0.31%                    66.25%                     0.7475             66.89%              0.7575                           -0.64%
+         Layer-23          -23         23          66.38%           0.7472                    66.24%                     0.7440             64.81%              0.7415                           +1.43%                    65.70%                     0.7380             65.14%              0.7365                           +0.56%
+         Layer-24          -24         24          61.20%           0.6917                    60.94%                     0.6873             60.85%              0.6821                           +0.09%                    60.80%                     0.6856             61.89%              0.6877                           -1.09%
+         Layer-25          -25         25          59.82%           0.6640                    59.41%                     0.6592             60.19%              0.6634                           -0.78%                    59.04%                     0.6573             59.47%              0.6623                           -0.43%
+         Layer-26          -26         26          54.18%           0.5787                    53.80%                     0.5757             53.33%              0.5763                           +0.47%                    53.61%                     0.5751             54.86%              0.5876                           -1.25%
+         Layer-27          -27         27          51.72%           0.5222                    51.50%                     0.5212             51.35%              0.5352                           +0.15%                    51.36%                     0.5203             51.77%              0.5228                           -0.41%
+ Layer-28 (First)          -28         28          50.95%           0.5114                    51.08%                     0.5111             51.14%              0.5158                           -0.06%                    50.92%                     0.5115             51.05%              0.5108                           -0.13%

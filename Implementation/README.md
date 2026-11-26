@@ -240,5 +240,8 @@ python extract_all_28_layers.py --model base --precision fp16
 
 # Run full 28-layer probe transfer pipeline:
 python run_all_28_layers_probe_transfer.py --model all
+
+# Train and evaluate native quantized probes on all 28 layers:
+python run_all_28_layers_native_quant_probes.py --model all --precision all
 ```
-*(All 28-layer results are saved in `results/probe_transfer_all_28_layers_base.csv` and `results/probe_transfer_all_28_layers_instruct.csv`).*
+*(All 28-layer results and comparisons are saved in `results/all_28_layers_native_vs_transfer_comparison_base.csv` and `results/all_28_layers_native_vs_transfer_comparison_instruct.csv`).*
